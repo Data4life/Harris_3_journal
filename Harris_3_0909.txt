@@ -1,0 +1,1 @@
+Yesterday we created a folder that could be accessed by the terminal on the computer so that it could be easily gotten to.
