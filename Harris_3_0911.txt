@@ -1,0 +1,3 @@
+Pseudo code is a type of code that doesn't actually work.
+It is good for communicating with others.
+We will use it for showing others your code.
