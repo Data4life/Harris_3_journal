@@ -5,11 +5,13 @@ void setup() {
 
 void draw() {
   if (mousePressed) {
-    fill(#2E0854);
+    fill(564131245);
   } else {
     fill(#00FFFF);
-   
+
   }
   ellipse(mouseX, mouseY, 50, 50);
-  
+  rect(mouseX, mouseY, 50, 50);
+  rect(mouseX, mouseY, -50, -50);
+ 
 }
