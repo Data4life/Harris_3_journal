@@ -3,3 +3,14 @@ Rules for the class!!!!!!!!!!!!!!!!
 1. Tinker
 2. Electronics or anything else that  hinders you focusing
 3. Talking to other people
+
+WHY!!!!!!!!!!!!!!
+
+In practice it looks like a student interacting with his or her peers when he or she has a problem, playong with code and having their devices put away.
+
+First, Find a Problem
+Second, Create a Hypothisis
+Third, Find possible solutions
+Fourth, create/fix
+Fifth, test
+Sixth, if wrong go to step 3
