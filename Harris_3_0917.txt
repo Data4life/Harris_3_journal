@@ -1,0 +1,7 @@
+1. int- Integers
+2. string- Multiple Charactar 
+3. Char- Single charactar
+4. Boolean- True or false
+5. Float- a floating point decimal
+
+
