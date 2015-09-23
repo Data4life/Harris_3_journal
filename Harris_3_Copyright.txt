@@ -6,7 +6,7 @@ Fair Use - Limited use of a peice without getting permission first.
 
 Free Speech - You can say what ever you want (unless you are in school).
 
-Free Software - Unchanged software.
+Free Software - You are free to modify or change.
 
 Freeware -Software that you can edit and use. Unchanged software.
 
@@ -18,3 +18,22 @@ Piracy - Takeing files with-out the original users permission.
 
 Plagiarism - Takeing credit for work that is not yours..
 
+Infringment - Breaking a law or right
+
+proprietary - The Owner.
+
+Open Source - giving the people the rightto modify and/or distribute others work.
+
+GNU GPL - You can do what ever you want and share it.
+
+License - A permit from an authority to do something others can't.
+
+MIT License - it permits reuse within proprietary software provided all copies 
+of the licensed software include a copy of the MIT License terms and the copyright notice.
+
+Apache License - A free software license by Apache Software Foundation
+
+EULA - A license between the user and the publisher or the author.
+
+Creative Commons - Creative Commons is a non-profit organization devoted to expanding 
+the range of creative works available for others to build upon legally and to share.
