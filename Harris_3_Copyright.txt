@@ -1,4 +1,4 @@
-CopyRight - taking someones work and using it for commercial use.
+CopyRight - Taking someones work and using it for commercial use.
 
 Copyleft - Work that has been changed or altered can be used (Parody).
 
@@ -22,13 +22,13 @@ Infringment - Breaking a law or right
 
 proprietary - The Owner.
 
-Open Source - giving the people the rightto modify and/or distribute others work.
+Open Source - Giving the people the rightto modify and/or distribute others work.
 
 GNU GPL - You can do what ever you want and share it.
 
 License - A permit from an authority to do something others can't.
 
-MIT License - it permits reuse within proprietary software provided all copies 
+MIT License - It permits reuse within proprietary software provided all copies 
 of the licensed software include a copy of the MIT License terms and the copyright notice.
 
 Apache License - A free software license by Apache Software Foundation
@@ -37,3 +37,13 @@ EULA - A license between the user and the publisher or the author.
 
 Creative Commons - Creative Commons is a non-profit organization devoted to expanding 
 the range of creative works available for others to build upon legally and to share.
+
+Questions:
+1)Linux
+2)It is open for everyone to use.
+3)gives the author
+3)Gives the user the ability to make programs better than what they used to be.
+4)You would use the license when you are trying to write code.
+5)You would not use this when you are trying to read code.
+
+GPL is a virus because if you have it then everything has to be open source.
