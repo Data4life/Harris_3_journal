@@ -1,0 +1,6 @@
+What is the Difference between MIT and GPL Licenses?
+The difference is that GPL dosn't let you keep proprietary title, but the MIT license does keep you owner.
+
+We will use the GPL so that we can share our scripts
+ 
+You have a Linux GNU shirt on.
