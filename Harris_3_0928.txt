@@ -1,0 +1,5 @@
+You can count in java by creating a for loop with the variable with a ++ following it.
+
+You can see if a number is divisable by something by using the modulo symbol "%" or shift 5.
+
+You can use a whole bunch of if statements seeing if a number can be divised into smaller numbers.
