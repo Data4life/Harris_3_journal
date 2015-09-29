@@ -1,0 +1,6 @@
+A method is a portion of code you can call upon whenever you want.
+
+A method is good for repeating multiple lines faster.
+
+You can add as many if statements that divide the numbers by other defined
+numbers.
