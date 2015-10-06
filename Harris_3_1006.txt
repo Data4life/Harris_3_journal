@@ -1,0 +1,7 @@
+A method are one or more lines of commands that can be called upon when ever you want, to expedite things.
+
+A category of things that have some property or attribute in common and differentiated from others by kind, type, or quality.
+
+An instance is something appearing only once.
+
+A class method is a method refering to a class.
