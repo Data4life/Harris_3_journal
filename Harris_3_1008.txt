@@ -1,0 +1,9 @@
+I could make a flower.
+
+I could use gc.
+
+I could use a for loop to make multiple flowers.
+
+I could use  if/else/ and else if statements to determine color.
+
+I could use math to determine location.
