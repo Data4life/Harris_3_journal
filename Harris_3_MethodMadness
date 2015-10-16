@@ -1,0 +1,15 @@
+ant -f /home/Data4Life/NetBeansProjects/Harris_3_Javafxintro jfxsa-run
+init:
+Deleting: /home/Data4Life/NetBeansProjects/Harris_3_Javafxintro/build/built-jar.properties
+deps-jar:
+Updating property file: /home/Data4Life/NetBeansProjects/Harris_3_Javafxintro/build/built-jar.properties
+compile:
+Detected JavaFX Ant API version 1.3
+jfx-deployment:
+jar:
+Copying 12 files to /home/Data4Life/NetBeansProjects/Harris_3_Javafxintro/dist/run1001349171
+jfx-project-run:
+Executing /home/Data4Life/NetBeansProjects/Harris_3_Javafxintro/dist/run1001349171/Harris_3_Javafxintro.jar using platform /usr/lib/jvm/java-8-oracle/jre/bin/java
+Deleting directory /home/Data4Life/NetBeansProjects/Harris_3_Javafxintro/dist/run1001349171
+jfxsa-run:
+BUILD SUCCESSFUL (total time: 1 minute 6 seconds)

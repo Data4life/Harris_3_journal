@@ -1,0 +1,5 @@
+	In my beutiful creation I included eight methods. Some with for loops, others with polygons i.e. 
+triangles, others with empty squares, and two with text. My favorite part was when I could create the 
+for loop with like 25 congruent circles going diagonaly from corner to corner. learning how to use 
+different commands in one method was cool, I was basically using multiple basic programs to make 
+one giant code.
