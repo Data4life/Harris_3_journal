@@ -1,0 +1,5 @@
+A method is some lines of code that can be called upon later in the script or
+program. I used the methods, Name();, game();, and end();. All of those 
+methods are static void methods. For those methods I called them in my public 
+static void. A while loop is sort of like a for loop but, it only runs based 
+on true or false from a boolean. I used a while loop to judge how many chances to get the number right.
