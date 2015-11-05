@@ -1,0 +1,4 @@
+A string in computer science is a sequence of numbers or characters.
+It can be useful to write multiple lines of code.
+String Methods are types of methods that incorperate many lines of long code.
+We identify string methods with a index(String str)
