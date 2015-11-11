@@ -1,0 +1,5 @@
+My player must beat an enemy with specific skills.
+There will be a boolean
+It will be if the boolean is true or false.
+Class: Sword or Spear
+Variables: Range and Damage
