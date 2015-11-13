@@ -1,0 +1,3 @@
+I could use a while loop to keep track of what my player has done, so that they could check
+
+I will use one method with a lot of if statements.
