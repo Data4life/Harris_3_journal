@@ -1,0 +1,2 @@
+I have sucsessfully created my Emacs project.
+I want to later have more variables that can change your game.
