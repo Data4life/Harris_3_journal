@@ -1,0 +1,1 @@
+My game was successful because I was able to have multiple methods instead of haveing multiple if statements, and I was able to call those methods when they were needed.
