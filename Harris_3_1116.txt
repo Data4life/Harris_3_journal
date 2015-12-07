@@ -1,0 +1,1 @@
+I will use methods to help me navigate the code when the user is playing. I want to do this because I want to have an attributes menu you can access whenever you want, and I can do this with multiple methods.
