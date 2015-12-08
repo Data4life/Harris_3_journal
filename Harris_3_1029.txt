@@ -1,0 +1,1 @@
+Yes, I think that my project is a game because of the multiple routes the player can direct his or her character throughout the entire process and depending on what they want to do. I could probably make it better if I added an armor(); method.
