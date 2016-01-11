@@ -1,0 +1,3 @@
+The challenges thast I have encountered are getting Unwavering.
+I will create a maze game.
+Some of the problems are converting the map to my map.
