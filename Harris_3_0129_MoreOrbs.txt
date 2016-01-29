@@ -1,0 +1,6 @@
+A class consrtuctor is something that gets items ready for rendering.
+Position - distance from character
+Size - don't want it to be to big or to small
+speed - fast
+direction - it should go the direction you are facing.
+getid, shoot, damage, direction.
