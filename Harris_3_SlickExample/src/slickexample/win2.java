@@ -37,7 +37,7 @@ import org.newdawn.slick.state.transition.FadeOutTransition;
 
 
 
-public class win extends BasicGameState {
+public class win2 extends BasicGameState {
     
 
     
@@ -49,7 +49,7 @@ public class win extends BasicGameState {
     
 
 
-     public win(int xSize, int ySize) {
+     public win2(int xSize, int ySize) {
 
 
 
@@ -128,7 +128,7 @@ public class win extends BasicGameState {
 // TODO AutoÃ¢â‚¬Âgenerated method stub
 
 
-        return 3;
+        return 50;
 
 
     }

@@ -16,7 +16,7 @@ import org.newdawn.slick.geom.Shape;
 public class Player {
 
 
-	public static float x = 2150f;
+	public static float x = 4900f;
 
 	public static float y = 3125f;
 

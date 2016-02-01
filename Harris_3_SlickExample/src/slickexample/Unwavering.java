@@ -53,6 +53,7 @@ public class Unwavering extends BasicGameState {
     public Item healthpotion, healthpotion1;
     public Item1 speedpotion, speedpotion1;
     public ItemWin antidote;
+    public ItemWinLevel2 Antidote;
     public Enemy Aldo;
 
     public ArrayList<Enemy> enimez = new ArrayList();
@@ -61,6 +62,7 @@ public class Unwavering extends BasicGameState {
     public ArrayList<Item1> stuff1 = new ArrayList();
 
     public ArrayList<ItemWin> stuffwin = new ArrayList();
+    public ArrayList<ItemWinLevel2> stuffwin2 = new ArrayList();
 
     private boolean[][] hostiles;
 
@@ -314,8 +316,10 @@ public class Unwavering extends BasicGameState {
         stuff1.add(speedpotion);
         stuff1.add(speedpotion1);
 
-        antidote = new ItemWin(2225, 1325);
+        antidote = new ItemWin(4975, 1250);
         stuffwin.add(antidote);
+        Antidote = new ItemWinLevel2(1900, 3150);
+        stuffwin2.add(Antidote);
     }
 
     public void render(GameContainer gc, StateBasedGame sbg, Graphics g)
@@ -343,14 +347,7 @@ public class Unwavering extends BasicGameState {
         g.drawString("time passed: " + counter / 1000, camera.cameraX + 600, camera.cameraY);
         // moveenemies();
 
-        for (Item i : stuff) {
-            if (i.isvisible) {
-                i.currentImage.draw(i.x, i.y);
-				// draw the hitbox
-                //g.draw(i.hitbox);
-
-            }
-        }
+          
 
         for (Item1 h : stuff1) {
             if (h.isvisible) {
@@ -362,6 +359,14 @@ public class Unwavering extends BasicGameState {
         }
 
         for (ItemWin w : stuffwin) {
+            if (w.isvisible) {
+                w.currentImage.draw(w.x, w.y);
+		// draw the hitbox
+                //g.draw(w.hitbox);
+
+            }
+        }
+        for (ItemWinLevel2 w : stuffwin2) {
             if (w.isvisible) {
                 w.currentImage.draw(w.x, w.y);
 		// draw the hitbox
@@ -516,6 +521,20 @@ public class Unwavering extends BasicGameState {
                     w.isvisible = false;
                     makevisible();
                     sbg.enterState(3, new FadeOutTransition(Color.black), new FadeInTransition(Color.black));
+
+                }
+
+            }
+        }
+        
+        for (ItemWinLevel2 z : stuffwin2) {
+
+            if (Player.rect.intersects(z.hitbox)) {
+                //System.out.println("yay");
+                if (z.isvisible) {
+                    z.isvisible = false;
+                    makevisible();
+                    sbg.enterState(50, new FadeOutTransition(Color.black), new FadeInTransition(Color.black));
 
                 }
 
