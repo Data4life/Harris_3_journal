@@ -1,1 +1,4 @@
-It is a class , because it uses render.
+What prevented me from completeing my game on time was that I wanted to
+create a second level. So I had to create new java classes, and edit the win
+screen so that it took me to the second level, and then after that back to 
+the first level and so on. But that task took a long time.
