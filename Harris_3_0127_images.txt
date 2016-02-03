@@ -1,0 +1,1 @@
+"Method_Name" = new Image("location/name.file_type")
