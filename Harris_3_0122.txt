@@ -1,1 +1,4 @@
-It is a class , because it uses render.
+I had to turn in my beta game in late because I was making 2 levels, so I had 
+to make new java classes, in doing so I had to edit my win screens so that
+after I beat one level it took me to the second, and vice versa. That process 
+took me quite a bit of time.
