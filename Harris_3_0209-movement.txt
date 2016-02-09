@@ -1,0 +1,3 @@
+I can make the orb move by having the orb move over 1 frame per half second or quarter second.
+
+Key_Space() would call the last direction moved and fire in that direction.
