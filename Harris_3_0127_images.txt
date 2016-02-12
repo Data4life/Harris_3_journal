@@ -1,1 +1,4 @@
+To import an image you use the code:
 "Method_Name" = new Image("location/name.file_type")
+
+It is drawn over anything that is visible.
