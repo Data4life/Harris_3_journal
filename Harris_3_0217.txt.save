@@ -1,0 +1,25 @@
+An array is used to contain an object
+
+the code is:
+int[] something = new int[];
+
+the code is:
+String[] something = new String[];
+
+the code is:
+Boolean something = new boolean[];
+
+the code is:
+double[] something = new double[];
+
+You would:
+int[] something = new int[0]
+something[0] = 42;
+
+String something = "bob";
+
+It creates a string called dessert and gives it a value of 3
+
+It creates a string called dessert and changes its value of "rice pudding, pan dulce, bunuelos"
+
+One replaces and one gives a value
