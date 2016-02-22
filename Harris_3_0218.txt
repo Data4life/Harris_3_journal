@@ -1,0 +1,15 @@
+It sets up the move up animation.
+
+Because
+
+int[] array = new int[]
+
+It is like an array but it holds multiple objects.
+
+public ArrayList<ItemWin> stuffwin = new ArrayList();
+
+stuff1, stuff2, stuff3
+
+ArrayList can not contains primitive data types (like int , float , double) it can only contains Object while Array can contain both primitive data types as well as objects.
+
+Create a int named hc and assign it a numeric value and then subtract it when it runs into enemies

@@ -1,0 +1,1 @@
+To see whether weapons damege enimies in slick you would use the intersects command
