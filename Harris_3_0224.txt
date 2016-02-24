@@ -1,0 +1,5 @@
+public int main {
+	public Rat = new Rat();
+	public ArrayList<Rat> rat1, rat2, rat3, rat, rat5 = new ArrayList();
+
+}
