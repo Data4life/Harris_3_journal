@@ -1,0 +1,62 @@
+1)How do we make a class
+public class Donut() {
+
+}
+
+2)Donut Bismarck = new Donut();
+is this a class constructor
+No, it is createing a class constructor - it is calling the class constructor, with Donut();
+3)How do we make a class with values and a class constructor?
+Public class Breakfast() {
+	boolean hasEggs;
+	int numOfEggs;
+	Boolean hasBacon;
+	boolean hasOrangeJuice
+	int sliccesOfBacon;
+	
+	Breakfast(int a,int b,boolean c,boolean d, boolean e) {
+		this.numOfEggs = a;
+		this.slicesOfBacon = b;
+		this.hasEggs = c;
+		this.hasBacon = d;
+		this.hasOrangeJuice = e;
+	}
+	//a getter gets things, i.e. namely in java and oop
+	//a getter is usually public so that it can RETURN private values,
+	//e.g. a getter for slices of bacon tells the main
+	//class how many slices of bacon.
+
+	public int getSlicesOfBacon() {
+		return slicesOfBacon;
+	}
+	
+	//A getter returns a value, by contrast a setter sets values
+	//For example, to set whether we have orange juice,
+	
+
+	public void setHasOrangeJuice(boolean a) {
+		this.hasOrangeJuice = a;
+	}
+
+}
+
+
+4) An array of breakfast
+int[] numberz; //this is an array of numbers
+char[] characterz; //thisis an array of chars
+boolean[][] blocked; //this is a 2D array of booleans
+
+Breakfast roedersBreakfast = new Breakfast(2,2,true,true,true);
+Breakfast papasBreakfast = new Breakfast(2,2,true,true,true);
+Breakfast mamasBreakfast = new Breakfast(2,2,true,true,true);
+Breakfast sisBreakfast = new Breakfast(2,2,true,true,true);
+Breakfast abuelaBreakfast = new Breakfast(2,2,true,true,true);
+Breakfast abueloBreakfast = new Breakfast(2,2,true,true,true);
+
+Breakfast[] roederFamiliesBreakfastz = {roedersBreakfast, papasBreakfast, mamasBreakfast, sisBreakfast, abuelaBreakfast, abueloBreakfast};
+
+5) Using getters and setters:
+roedersBreakfast.setSlicesOfBacon(12);
+//this is using a setter
+
+6)this
