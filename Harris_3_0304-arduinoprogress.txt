@@ -1,0 +1,5 @@
+We have created an Idea of what we want to build.
+We need to write the code for our game.
+We will be turning in a tic-tac-toe game.
+We have not written any code yet.
+None so far.
