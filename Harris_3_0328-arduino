@@ -1,0 +1,5 @@
+I have done a lot of copying and pasting the button and buzzer codes, for each buzzer I have.
+a voltage & a ground
+void setup
+
+I am going to make a piano system where every button makes a different sound.
