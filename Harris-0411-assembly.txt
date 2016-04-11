@@ -1,0 +1,6 @@
+"A low-level symbolic code converted by an assembler", it is a programming language
+Assembly gives direct and complete control over system hardware
+Assembly language programs contain only the code that is necessary to perform the given task.
+High level programs have a compiler that translates to the target machine language.
+High Level because of its complexity
+Low Level You only type what is necessary.
