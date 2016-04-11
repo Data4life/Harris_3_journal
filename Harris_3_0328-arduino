@@ -1,5 +1,6 @@
-I have done a lot of copying and pasting the button and buzzer codes, for each buzzer I have.
-a voltage & a ground
-void setup
-
-I am going to make a piano system where every button makes a different sound.
+There is no main class in the arduino program. The only classes there are in arduino are void classes.
+If I was going to make any adjustments I would adjust the light sensor to be more sensitive.
+a positive / voltage, and negative ground
+verify
+everything up to light sensor (I wasn't here the first day)
+a light sensor changing the light produced by a led and the amount of noise ina buzzer.
