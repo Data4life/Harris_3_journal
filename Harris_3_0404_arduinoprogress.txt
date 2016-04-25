@@ -1,0 +1,11 @@
+We have planned out our project, and discussed all the needed parts for the
+project.
+
+We need to figure out how to program the arduino to playsound after 
+the buttons are pressed at the same time.
+
+Hopefully an arduino playing the corect note
+
+We are combing the music code and the button code
+
+So far, we have written no functions.
