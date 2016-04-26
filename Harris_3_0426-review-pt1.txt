@@ -1,0 +1,46 @@
+//Java
+import java.util.Scanner;
+
+Scanner x = new Scanner(System.in);
+int x = a.nextInt();
+a * a = z;
+System.out.println(z);
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Arduino
+
+void setup() {
+}
+void loop (){
+	cubed(3);
+}
+
+int cubed (int number){
+	int squared;
+	int cubed; 
+
+	squared = number*number;
+	cubed = number*squared;
+
+	return cubed;
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Class
+public class Student {
+	int height;
+	int weight;
+	string eyeColor;
+	int grade;
+	public Student(int a, int b, string c, int d){
+		this.height = a;
+		this.weight = b;
+		this.eyeColor = c;
+		this.grade = d;
+
+     }
+  }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Arduino Decision
+
+If I were to make another project I would put flashing lights above the buttons and have them light up the color of the button tops.
