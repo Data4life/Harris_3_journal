@@ -1,0 +1,48 @@
+//Java
+
+import java.util.Scanner;
+
+Scanner x = new Scanner(System.in);
+int a = x.nextInt();
+a * a  * a = z;
+System.out.println(z);
+
+------------------------------------------------------------------------------
+
+
+//Arduino
+void setup(){
+
+}
+void loop(){
+	cubed(3);
+}
+int cubed (int number){
+	int squared;
+	int cubed;
+	
+	squared = number*number;
+	cubed = number*squared;
+
+	return cubed;
+}
+--------------------------------------------------------------------------
+//Class
+
+public class Student(){
+	int height;
+	int weight;
+	String eyeColor:
+	int grade;
+	public student(int a, int b, String c, int d){
+		this.height = a;
+		this.weight = b;
+		this.eyeColor = c;
+		this.grade = d
+	}
+}
+
+
+--------------------------------------------------------------------------
+If we were to continue to code and build in Arduino I would make the piano better by adding lights above the buttons and hey would flash t
+he color of the button top every time the button was pressed
