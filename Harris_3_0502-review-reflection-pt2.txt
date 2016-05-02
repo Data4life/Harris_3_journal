@@ -1,0 +1,27 @@
+An array is a container object thats holds a fixed number of values of a specific type
+
+static String[][] myArray = new String[a][b];
+
+int[][] myArray = new int[5][5];
+
+int[][][] myArray = new int[5][5][5];
+
+array[5] = 10;
+
+while (values) {
+	if(values) {
+
+	}
+}
+
+A wile loop is helpful when you want something to achieve or complete something.
+
+main();
+
+So that when the user imputs a capital letter and you expect a lower case letter it converts it to a lower case letter.
+
+
+Put everthing having to do with the movement in one method and everything having to do with intersection in another
+
+The input the player puts in.
+
