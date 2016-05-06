@@ -1,0 +1,23 @@
+if (i=0){ System.out.println("8888");
+	if the variable "i" is equivelent to 0 then the computer prints out
+	8888.
+System.out.print(map[i][j]);
+	it prints the "map" starting on the same line
+System.out.println(".");
+	it prints a period on the line underneath the current line. But line
+	#e it starts it on the same line.
+System.out.println(map[i][j]);
+	it prints "map" on the line underneath the current line.
+
+while(true) {
+	system.out.println
+}
+If the value is true the while loop goes on, but if the value turns to false
+then the while loop stops.
+
+Static means it can be called from anywhere.
+
+You can have a stick character that can move its appendages :
+		  O
+             	\||/
+		 /\
