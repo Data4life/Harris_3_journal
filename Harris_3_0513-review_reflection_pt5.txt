@@ -1,0 +1,13 @@
+I was the type of student was unfamiliar with the arrays, because I had no prior 
+experiences with arrays.
+
+How do you make a for loop
+how do you make a moving player
+how do you make a moving enemy
+how do you make a border
+how do you make a treasure
+how do you make a border
+how do you set a timer
+how do you count track of how many enemies you have destroyed
+how do you make a bomb
+how do you create an array

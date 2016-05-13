@@ -1,0 +1,13 @@
+public static void Hero() {
+	int health = 500;
+	int score = 0;
+	String weapon = "Sword";
+	int dexterity = 5;
+	int perception = 3;
+	int level = 1;
+	int x = 9
+
+	int y = 
+	int z = 
+	String clanSymbol = "( ͡° ͜ʖ ͡°)";
+}
