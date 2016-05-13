@@ -1,0 +1,208 @@
+package harris_3_arrays;
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class Harris_3_Arrays {
+
+    public static int maxX = 29;
+    public static int maxY = 29;
+    public static int[] coordinate = new int[8];
+    static char[][] myArray = new char[maxX][maxY];
+    static Scanner scan = new Scanner(System.in);
+    public static Random randX = new Random();
+    public static Random randY = new Random();
+    static int bomb = 5;
+    public static boolean game = true;
+
+    public static void main(String[] args) {
+        userInputStart();
+        while (game) {
+            printArray();
+            array();
+            setAt(14, 14);
+            setTreasure(2, 2);
+            setEnemy1((maxX / 2), (maxX / 2));
+            setEnemy2((maxX / 3), (maxX / 3));
+
+        }
+
+    }
+
+    public static String userInputStart() {
+        Scanner mapSize = new Scanner(System.in);
+        System.out.println("How large would you like the array square to be? bigger the 20 but smaller than 35");
+        int userInput1 = mapSize.nextInt();
+        if (userInput1 > 35 || userInput1 < 20) {
+            userInputStart();
+        }
+        maxX = userInput1;
+        maxY = userInput1;
+        array();
+        return userInputStart();
+    }
+
+    public static void array() {
+        System.out.println("This is the story of a lonely boy who is the last person on earth....");
+        myArray = new char[maxX][maxY];
+        for (char a = 0; a < maxX; a++) {
+            for (char b = 0; b < maxX; b++) {
+                myArray[a][b] = '.';
+            }
+        }
+        printArray();
+    }
+
+    public static void setAt(int a, int b) {
+        coordinate[0] = a;
+        coordinate[1] = b;
+        myArray[coordinate[0]][coordinate[1]] = '@';
+    }
+
+    public static void setEnemy1(int c, int d) {
+        coordinate[2] = c;
+        coordinate[3] = d;
+        myArray[coordinate[2]][coordinate[3]] = 'E';
+    }
+
+    public static void setEnemy2(int e, int f) {
+        coordinate[4] = e;
+        coordinate[5] = f;
+        myArray[coordinate[4]][coordinate[5]] = 'E';
+    }
+
+    public static void setTreasure(int e, int f) {
+        coordinate[4] = e;
+        coordinate[5] = f;
+        myArray[coordinate[2]][coordinate[3]] = 'T';
+    }
+
+    public static void printBomb() {
+        myArray[coordinate[0]][coordinate[1]] = 'B';
+    }
+
+    public static void printArray() {
+        myArray[coordinate[0]][coordinate[1]] = '@';
+        for (int a = 0; a < maxX; a++) {
+            for (int b = 0; b < maxX; b++) {
+                if (b < maxX - 1) {
+                    System.out.print(myArray[a][b] + " ");
+                } else {
+                    System.out.println(myArray[a][b] + " ");
+                }
+            }
+        }
+        myArray[coordinate[0]][coordinate[1]] = '.';
+        myArray[coordinate[2]][coordinate[3]] = 'E';
+        userInput();
+    }
+
+    public static void moveEnemy1() {
+        if (coordinate[0] > coordinate[2]) {
+            myArray[coordinate[2]][coordinate[3]] = '.';
+            coordinate[2]++;
+        } else if (coordinate[1] > coordinate[3]) {
+            myArray[coordinate[2]][coordinate[3]] = '.';
+            coordinate[3]++;
+        } else if (coordinate[1] < coordinate[3]) {
+            myArray[coordinate[2]][coordinate[3]] = '.';
+            coordinate[3]--;
+        } else if (coordinate[0] < coordinate[2]) {
+            myArray[coordinate[2]][coordinate[3]] = '.';
+            coordinate[2]--;
+        }
+
+        setEnemy1(coordinate[2], coordinate[3]);
+        checkStatus();    
+    }
+
+    public static void moveEnemy2() {
+        if (coordinate[0] > coordinate[4]) {
+            myArray[coordinate[4]][coordinate[5]] = '.';
+            coordinate[4]++;
+        } else if (coordinate[1] > coordinate[5]) {
+            myArray[coordinate[4]][coordinate[5]] = '.';
+            coordinate[5]++;
+        } else if (coordinate[1] < coordinate[5]) {
+            myArray[coordinate[4]][coordinate[5]] = '.';
+            coordinate[5]--;
+        } else if (coordinate[0] < coordinate[4]) {
+            myArray[coordinate[4]][coordinate[5]] = '.';
+            coordinate[4]--;
+        }
+        setEnemy2(coordinate[4], coordinate[5]);
+        checkStatus();
+    }
+
+    public static void winScreen() {
+        game = false;
+        System.out.println("--------------------------------------");
+        System.out.println("__   __           __        ___       \n"
+                + "\\ \\ / /__  _   _  \\ \\      / (_)_ __  \n"
+                + " \\ V / _ \\| | | |  \\ \\ /\\ / /| | '_ \\ \n"
+                + "  | | (_) | |_| |   \\ V  V / | | | | |\n"
+                + "  |_|\\___/ \\__,_|    \\_/\\_/  |_|_| |_|");
+        System.out.println("--------------------------------------");
+    }
+
+    public static void loseScreen() {
+        game = false;
+        System.out.println("---------------------------------------");
+        System.out.println("__   __            _                   \n"
+                + "\\ \\ / /__  _   _  | |    ___  ___  ___ \n"
+                + " \\ V / _ \\| | | | | |   / _ \\/ __|/ _ \\\n"
+                + "  | | (_) | |_| | | |__| (_) \\__ \\  __/\n"
+                + "  |_|\\___/ \\__,_| |_____\\___/|___/\\___|");
+        System.out.println("---------------------------------------");
+    }
+
+    public static void checkStatus() {
+        if ((coordinate[0] == coordinate[2] && coordinate[1] == coordinate[3]) || (coordinate[0] == coordinate[4] && coordinate[1] == coordinate[5])) {
+            loseScreen();
+        } else if (coordinate[0] == 0 && coordinate[1] == 0) {
+            winScreen();
+        } else {
+            printArray();
+        }
+
+    }
+
+    public static String userInput() {
+        System.out.println("Which direction do you want to move \n1, 2, 3, 4, 6, 7, 8, 9 (use number pad)");
+        Scanner dir = new Scanner(System.in);
+        String userInput = dir.nextLine();
+        if (userInput.toLowerCase().trim().contains("8")) {
+            coordinate[0] -= 1;
+            coordinate[1] += 0;
+        } else if (userInput.toLowerCase().trim().contains("2")/* && myArray[coordinate[0] + 1][coordinate[1]] != '|'*/) {
+            coordinate[0] += 1;
+            coordinate[1] += 0;
+        } else if (userInput.toLowerCase().trim().contains("6")) {
+            coordinate[0] += 0;
+            coordinate[1] += 1;
+        } else if (userInput.toLowerCase().trim().contains("4")) {
+            coordinate[0] += 0;
+            coordinate[1] -= 1;
+        } else if (userInput.toLowerCase().trim().contains("7")) {
+            coordinate[0] -= 1;
+            coordinate[1] -= 1;
+        } else if (userInput.toLowerCase().trim().contains("9")) {
+            coordinate[0] -= 1;
+            coordinate[1] += 1;
+        } else if (userInput.toLowerCase().trim().contains("3")) {
+            coordinate[0] += 1;
+            coordinate[1] += 1;
+        } else if (userInput.toLowerCase().trim().contains("1")) {
+            coordinate[0] += 1;
+            coordinate[1] -= 1;
+        } else if (userInput.toLowerCase().trim().contains("5")) {
+            printArray();
+        } else {
+            System.out.println("Invlaid command, choose 1, 2, 3, 4, 6, 7, 8, 9 (use number pad)");
+        }
+        setAt(coordinate[0], coordinate[1]);
+        moveEnemy1();
+        moveEnemy2();
+        return userInput();
+    }
+}
