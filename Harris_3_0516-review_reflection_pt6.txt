@@ -1,0 +1,23 @@
+what is upcasting?
+	for example say you are working at this company, and you get a 
+	promotion. This is an example of upcasting because you are giving 
+	this person(variable) a higher data type 
+
+what is downcasting?
+        for example say you are working at this company, and you get a
+        demotion. This is an example of downcasting because you are giving
+        this person(variable) a lower data type.
+
+Give specific code for upcasting
+	int Z;
+	float G;
+	G = Z;
+
+Give specific code for downcasting
+        int Z;
+        float G;
+        Z = (int)G;
+
+0 - 1 for a single byte
+
+
