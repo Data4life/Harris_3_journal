@@ -1,0 +1,17 @@
+1.
+public static Player player;
+2.
+ogre1 = new Ogre(x,y);
+3.
+public static void setOgre1X(int ogre1X) {
+        Ogre.ogre1X = ogre1X;
+}
+4.
+if (I press 8, up) {
+        coordinate[0] += 1;
+        coordinate[1] += 0;
+	moveOgre1();
+}
+5.
+Ogre[] ogre1, ogre2, ogre3;
+
